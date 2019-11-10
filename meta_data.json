@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "small business",
+        "1": "technical",
+        "2": "mobile"
+    },
+    "description": "SMS plugin for MessageMedia bulk SMS API",
+    "image": "//s3.amazonaws.com/appforest_uf/f1573105201175x648768986763488000/MM%20Logo%202019_Primary_Full%20Col.png",
+    "license": "open_source",
+    "link": "https://hub.messagemedia.com/",
+    "name": "MessageMedia SMS",
+    "plugin_instructions": "Create an account for MessageMedia here, and get 25 free credits: https://hub.messagemedia.com/register . Create an API Key in the Hub under >Configuration>API Settings. "
+}

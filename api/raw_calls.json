@@ -1,0 +1,42 @@
+{
+    "auth": "basic_auth",
+    "calls": {
+        "AAE": {
+            "body": "{\n  \"messages\": [\n    {\n      \"content\": <content>,\n      \"destination_number\": <destination_number>}]\n}",
+            "body_params": {
+                "AAY": {
+                    "key": "content",
+                    "private": true,
+                    "value": "\"test message 3\""
+                },
+                "ABJ": {
+                    "key": "destination_number",
+                    "private": true,
+                    "value": "\"+61466412529\""
+                }
+            },
+            "data_type": "JSON",
+            "initialized": true,
+            "method": "post",
+            "name": "Send Message(s)",
+            "publish_as": "action",
+            "rank": 0,
+            "ret_value": "api.1573101154888x648740171569692700.plugin_api.AAE",
+            "types": "{\"plugin_api.AAE\":{\"caption\":\"Send Message(s)\",\"fields\":{\"_p_messages\":{\"ret_value\":\"list.api.1573101154888x648740171569692700.plugin_api.AAE.messages\",\"caption\":\"messages\",\"path\":[\"messages\"]}}},\"plugin_api.AAE.messages\":{\"caption\":\"Send Message(s) message\",\"fields\":{\"_p_callback_url\":{\"ret_value\":\"text\",\"caption\":\"callback_url\",\"path\":[\"callback_url\"]},\"_p_delivery_report\":{\"ret_value\":\"boolean\",\"caption\":\"delivery_report\",\"path\":[\"delivery_report\"]},\"_p_destination_number\":{\"ret_value\":\"text\",\"caption\":\"destination_number\",\"path\":[\"destination_number\"]},\"_p_format\":{\"ret_value\":\"text\",\"caption\":\"format\",\"path\":[\"format\"]},\"_p_message_expiry_timestamp\":{\"ret_value\":\"text\",\"caption\":\"message_expiry_timestamp\",\"path\":[\"message_expiry_timestamp\"]},\"_p_message_id\":{\"ret_value\":\"text\",\"caption\":\"message_id\",\"path\":[\"message_id\"]},\"_p_metadata\":{\"ret_value\":\"text\",\"caption\":\"metadata\",\"path\":[\"metadata\"]},\"_p_scheduled\":{\"ret_value\":\"text\",\"caption\":\"scheduled\",\"path\":[\"scheduled\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"path\":[\"status\"]},\"_p_content\":{\"ret_value\":\"text\",\"caption\":\"content\",\"path\":[\"content\"]},\"_p_source_number\":{\"ret_value\":\"text\",\"caption\":\"source_number\",\"path\":[\"source_number\"]},\"_p_rich_link\":{\"ret_value\":\"text\",\"caption\":\"rich_link\",\"path\":[\"rich_link\"]},\"_p_media\":{\"ret_value\":\"text\",\"caption\":\"media\",\"path\":[\"media\"]},\"_p_subject\":{\"ret_value\":\"text\",\"caption\":\"subject\",\"path\":[\"subject\"]}}}}",
+            "url": "https://api.messagemedia.com/v1/messages"
+        }
+    },
+    "human": "New API",
+    "shared_headers": {
+        "AAC": {
+            "key": "accept",
+            "private": true,
+            "value": "application/json"
+        },
+        "AAD": {
+            "key": "content-type",
+            "private": true,
+            "value": "application/json"
+        }
+    }
+}
